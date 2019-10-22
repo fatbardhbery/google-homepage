@@ -1,0 +1,54 @@
+/*
+    font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+*/
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.contentContainer{
+    text-align: center;
+    margin-top: 180px;;
+}
+
+.contentContainer img{
+    padding: 25px;
+}
+
+
+
+
+[type="text"]{
+    height: 40px;
+    width: 480px;
+    border-radius: 20px;
+    border: 1pt solid #dcdcdc;
+    padding: 0px 10px 0px 10px;
+}
+
+[type="text"]:hover{
+    border: 1pt solid #dcdcdc;
+    box-shadow: 1px 1.5px 4px #dcdcdc;
+}
+
+[type="text"]:focus{
+    border: 1pt solid #dcdcdc;
+    box-shadow: 1px 1.5px 4px #dcdcdc;
+}
+
+[type="submit"] {
+    margin-top: 30px;
+    border: none;
+    background-color: #f2f2f2;
+    padding: 10px 15px 10px 15px;
+    color: #5F6368;
+    border: 1pt solid transparent
+}
+
+
+[type="submit"]:hover {
+    border: 1pt solid grey;
+    border-radius: 5px;
+}
