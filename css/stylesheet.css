@@ -115,3 +115,14 @@ input[type="button"]:visited {
 .buttons p>a:visited{
     text-decoration: none;
 }
+
+
+.footer{
+    background-color: rgb(242, 242, 242);
+    padding: 1px 20px 1px 20px;
+    color: rgb(121, 121, 121);
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+    width: 97.8%;
+}
