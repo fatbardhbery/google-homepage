@@ -1,54 +1,79 @@
-/*
-    font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-*/
-
-
 html, body {
+    margin:0;
     padding: 0;
-    margin: 0;
+    background-color: white;
 }
 
-.contentContainer{
+.image{
     text-align: center;
-    margin-top: 180px;;
+    margin-top: 90px;
+    margin-bottom: 20px;
 }
 
-.contentContainer img{
-    padding: 25px;
+.searchBarContainer {
+    margin-top: 25px;
+    text-align: center;
 }
 
 
-
-
-[type="text"]{
-    height: 40px;
-    width: 480px;
-    border-radius: 20px;
-    border: 1pt solid #dcdcdc;
-    padding: 0px 10px 0px 10px;
+.searchBar{
+    border: 1pt solid gainsboro;
+    padding: 15px 20px 15px 20px;
+    border-radius: 40px;
+    width: 450px;
 }
 
-[type="text"]:hover{
-    border: 1pt solid #dcdcdc;
-    box-shadow: 1px 1.5px 4px #dcdcdc;
+.searchBar:hover,:focus {
+    box-shadow: 2px 2px 4px gainsboro;
 }
 
-[type="text"]:focus{
-    border: 1pt solid #dcdcdc;
-    box-shadow: 1px 1.5px 4px #dcdcdc;
+.buttons{
+    text-align: center;
+    margin-top: 20px;
+
 }
 
-[type="submit"] {
-    margin-top: 30px;
+input[type="button"]{
+    color: rgb(95, 99, 104);
+    border: 1pt solid transparent;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 10px 0px 10px;
+
+    background-color: rgb(244, 244, 244);
+}
+
+input[type="button"]:hover{
+    border: 1pt solid rgb(198, 198, 198);
+    color: rgb(40, 34, 34);
+    border-radius: 4px ;
+    box-shadow: 0.5px rgb(198, 198, 198) ;
+}
+
+input[type="button"]:focus{
+    box-shadow: none;
+    border: 1pt solid ;
+}
+
+input[type="button"]:visited {
     border: none;
-    background-color: #f2f2f2;
-    padding: 10px 15px 10px 15px;
-    color: #5F6368;
-    border: 1pt solid transparent
 }
 
+.buttons p{
+    font-size: 12px;
+    padding: 20px;
+}
 
-[type="submit"]:hover {
-    border: 1pt solid grey;
-    border-radius: 5px;
+.buttons p>a{
+    text-decoration: none;
+    color: blue;
+    margin: 0px 2px 0px 2px;
+}
+
+.buttons p>a:hover{
+    text-decoration: underline;
+}
+
+.buttons p>a:visited{
+    text-decoration: none;
 }
